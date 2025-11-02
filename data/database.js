@@ -13,7 +13,7 @@ const initDb = (callback) => {
 
   MongoClient.connect(process.env.MONGODB_URL)
     .then((client) => {
-      database = client.db(); // get the actual database object
+      database = client.db(); 
       console.log("MongoDB initialized");
       callback(null, database);
     })
