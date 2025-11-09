@@ -4,3 +4,44 @@ GET https://cse-341-project1-w9se.onrender.com/contacts
 
 
 GET https://cse-341-project1-w9se.onrender.com/contacts/6905a80c0c7ea664ac16df55
+
+
+### Get all contacts
+GET http://cse-341-project1-w9se.onrender.com/contacts
+
+
+###
+
+### Get contact by ID
+GET http://cse-341-project1-w9se.onrender.com/contacts/REPLACE_WITH_CONTACT_ID
+
+
+###
+
+### Create a new contact
+POST http://cse-341-project1-w9se.onrender.com/contacts
+
+
+{
+  "firstName": "Paul",
+  "lastName": "Smith",
+  "email": "ola@example.com",
+  "favoriteColor": "blue",
+  "birthday": "1990-05-15"
+}
+
+###
+
+### Update a contact
+PUT http://cse-341-project1-w9se.onrender.com/contacts/REPLACE_WITH_CONTACT_ID
+
+
+{
+  "favoriteColor": "green"
+}
+
+###
+
+### Delete a contact
+DELETE http://cse-341-project1-w9se.onrender.com/contacts/REPLACE_WITH_CONTACT_ID
+
