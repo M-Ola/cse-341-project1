@@ -1,5 +1,5 @@
 const mongodb = require("../data/database");
-const Objectid = require("mongodb").ObjectId;
+const ObjectId = require("mongodb").ObjectId;
 
 const getAll = async (req, res) => {
   const result = await mongodb
@@ -26,7 +26,7 @@ const getSingle = async (req, res) => {
   });
 };
 
-// POST: Create a new contact
+
 const createContact = async (req, res) => {
   
   const contact = {
