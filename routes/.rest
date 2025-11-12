@@ -25,7 +25,7 @@ Content-Type: application/json
 ###
 
 ### Update a contact in db
-PUT http://cse-341-project1-w9se.onrender.com/contacts/6914649849271b122440d3b1 HTTP/1.1
+PUT http://cse-341-project1-w9se.onrender.com/contacts/69146d92adaf899b1e2cc3ef HTTP/1.1
 Content-Type: application/json
 
 {
@@ -35,5 +35,4 @@ Content-Type: application/json
 ###
 
 ### Delete a contact in db
-DELETE http://cse-341-project1-w9se.onrender.com/contacts/6905bddcd8f8fa751c01b63e
-Content-Type: application/json
+DELETE http://cse-341-project1-w9se.onrender.com/contacts/69146d92adaf899b1e2cc3ef
